@@ -8,7 +8,7 @@ prompt = '> '
 #multple f strings, will prompt for "likes"
 print(f"Hi {user_name}, I'm the {script} script.")
 print("I'd like to ask you a few questions.")
-print(f'Do you like me {user_name}?')
+print(f"Do you like me", {user_name},"?")
 likes = input(prompt)
 
 #f string and prompts for input "likes"
