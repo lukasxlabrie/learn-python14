@@ -1,7 +1,7 @@
 #imports to add variable to script. stores var for later use. AKA Modules
 from sys import argv
 
-#defines prompt as > and tells python to take user_name from the user when asking terminal to run python
+#prints prompt as '>' and tells python to take user_name from the user when asking terminal to run python
 scirpt, user_name = argv
 prompt = '> '
 
